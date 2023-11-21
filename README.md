@@ -1,14 +1,6 @@
 # vue-landing
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Design: https://www.figma.com/file/EkvWkYOshMawkHEUuWaSzD/Logistics-landing-page-w%2F-Mobile-Responsive-%26-Dashboard-(Community)-(Copy)?type=design&node-id=217-582&mode=design&t=ulQVkIP2327UAehD-0
 
 ## Project Setup
 
