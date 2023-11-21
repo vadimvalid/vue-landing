@@ -24,16 +24,10 @@ const links = reactive([
 <template>
   <header>
     <div class="container flex justify-between items-center gap-base pt-3xl">
-      <AppLogo :logo-title="logo.logoTitle" :logo-sub-title="logo.logoSubTitle" />
+      <AppLogo v-bind="logo" />
       <AppNavbar />
       <div class="flex gap-xl">
-        <AppLink
-          v-for="link in links"
-          :key="link.id"
-          :link="link.link"
-          :title="link.title"
-          :is-secondary="link.isSecondary"
-        />
+        <AppLink v-for="link in links" :key="link.id" v-bind="link" />
       </div>
     </div>
   </header>

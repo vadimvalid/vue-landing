@@ -27,15 +27,15 @@
 }
 
 @font-face {
-  font-family: 'landing';
-  src: url('./assets//fonts/fontello.woff2') format('woff2');
+  font-family: 'shipup';
+  src: url('./assets/fonts/fontello.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
 
 [class^='icon-']:before,
 [class*=' icon-']:before {
-  font-family: 'fontello';
+  font-family: 'shipup';
   font-style: normal;
   font-weight: normal;
   display: inline-block;
