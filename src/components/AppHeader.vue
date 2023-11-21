@@ -22,17 +22,19 @@ const links = reactive([
 </script>
 
 <template>
-  <header class="flex justify-between items-center gap-base pt-3xl">
-    <AppLogo :logo-title="logo.logoTitle" :logo-sub-title="logo.logoSubTitle" />
-    <AppNavbar />
-    <div class="flex gap-xl">
-      <AppLink
-        v-for="link in links"
-        :key="link.id"
-        :link="link.link"
-        :title="link.title"
-        :is-secondary="link.isSecondary"
-      />
+  <header>
+    <div class="container flex justify-between items-center gap-base pt-3xl">
+      <AppLogo :logo-title="logo.logoTitle" :logo-sub-title="logo.logoSubTitle" />
+      <AppNavbar />
+      <div class="flex gap-xl">
+        <AppLink
+          v-for="link in links"
+          :key="link.id"
+          :link="link.link"
+          :title="link.title"
+          :is-secondary="link.isSecondary"
+        />
+      </div>
     </div>
   </header>
 </template>

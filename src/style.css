@@ -25,3 +25,47 @@
   src: url('./assets/fonts/Lato-Black.woff2') format('woff2');
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'landing';
+  src: url('./assets//fonts/fontello.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^='icon-']:before,
+[class*=' icon-']:before {
+  font-family: 'fontello';
+  font-style: normal;
+  font-weight: normal;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1em;
+  margin-left: 0.2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-down-open:before {
+  content: '\e800';
+}
+.icon-location:before {
+  content: '\e801';
+}
+.icon-warehouse:before {
+  content: '\e840';
+}
+.icon-suitcase:before {
+  content: '\f0f2';
+}
+.icon-paper-plane:before {
+  content: '\f1d8';
+}
+.icon-shopping-bag:before {
+  content: '\f290';
+}

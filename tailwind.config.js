@@ -5,7 +5,7 @@ const customContainer = plugin(function ({ addUtilities }) {
   addUtilities({
     '.container': {
       width: '100%',
-      maxWidth: '1440px',
+      maxWidth: '1172px',
       marginLeft: 'auto',
       marginRight: 'auto',
       paddingLeft: '1rem',
