@@ -1,8 +1,8 @@
 <script setup>
-import AppNavbar from '@/components/Navbar/AppNavbar.vue'
+import AppHeader from '@/components/AppHeader.vue'
 </script>
 
 <template>
-  <app-navbar />
+  <app-header />
   <router-view />
 </template>
