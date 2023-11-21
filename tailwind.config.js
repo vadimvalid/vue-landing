@@ -41,9 +41,37 @@ module.exports = {
       black: ['Lato-Black', 'sans-serif']
     },
     extend: {
+      fontSize: {
+        none: '0',
+        small: ['0.5rem', '1.2'],
+        xs: ['0.75rem', '1.33'],
+        sm: ['0.875rem', '1.14'],
+        base: ['1rem', '1.5'],
+        md: ['1.125rem', '1.2'],
+        lg: ['1.5rem', '1.33'],
+        xl: ['2rem', '1.125']
+      },
       spacing: {
-        '8xl': '96rem',
-        '9xl': '128rem'
+        none: '0',
+        xs: '0.25rem',
+        sm: '0.5rem',
+        md: '0.75rem',
+        base: '1rem',
+        medium: '1.25rem',
+        lg: '1.5rem',
+        xl: '1.875rem',
+        '2xl': '2.5rem',
+        '3xl': '3rem',
+        '3.5xl': '3.5rem',
+        '4xl': '4rem',
+        '4.5xl': '5rem',
+        '5xl': '6rem',
+        '5.5xl': '7rem',
+        '6xl': '8rem',
+        '7xl': '9rem',
+        '8xl': '10rem',
+        '8.5xl': '10.5rem',
+        '9xl': '12rem'
       },
       borderRadius: {
         '4xl': '2rem'

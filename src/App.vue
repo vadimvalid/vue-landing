@@ -1,10 +1,8 @@
 <script setup>
-import AppInput from './components/AppInput.vue'
-import { ref } from 'vue'
-
-const searchText = ref('')
+import AppHeader from '@/components/AppHeader.vue'
 </script>
 
 <template>
-  <AppInput v-model="searchText" />
+  <app-header />
+  <router-view />
 </template>
