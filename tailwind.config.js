@@ -25,15 +25,14 @@ module.exports = {
   },
   theme: {
     colors: {
-      blue: '#1fb6ff',
-      purple: '#7e5bef',
-      pink: '#ff49db',
-      orange: '#ff7849',
-      green: '#13ce66',
-      yellow: '#ffc82c',
-      'gray-dark': '#273444',
-      gray: '#8492a6',
-      'gray-light': '#d3dce6'
+      primary: '#000',
+      secondary: '#2C2D5B',
+      orange: '#f67366',
+      yellow: '#fff6df',
+      white: '#fff',
+      gray: '#9593A0',
+      'gray-light': '#d3dce6',
+      'gray-dark': '#4F4F4F'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
