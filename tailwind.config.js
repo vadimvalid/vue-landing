@@ -35,8 +35,10 @@ module.exports = {
       'gray-dark': '#4F4F4F'
     },
     fontFamily: {
-      sans: ['Graphik', 'sans-serif'],
-      serif: ['Merriweather', 'serif']
+      regular: ['Lato-Regular', 'sans-serif'],
+      medium: ['Lato-Medium', 'sans-serif'],
+      bold: ['Lato-Bold', 'sans-serif'],
+      black: ['Lato-Black', 'sans-serif']
     },
     extend: {
       spacing: {
